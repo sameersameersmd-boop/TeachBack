@@ -1,0 +1,52 @@
+{
+  "name": "teachback",
+  "version": "1.0.0",
+  "description": "TeachBack - Local AI Study Assistant",
+  "main": "electron/main.js",
+  "author": "TeachBack",
+  "license": "ISC",
+  "scripts": {
+    "start": "electron .",
+    "build:frontend": "npm --prefix frontend run build",
+    "build": "npm run build:frontend && electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^38.1.0",
+    "electron-builder": "^26.0.12",
+    "png-to-ico": "^3.0.2"
+  },
+  "build": {
+    "appId": "com.teachback.app",
+    "productName": "TeachBack",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "electron/**/*",
+      "frontend/dist/**/*",
+      "backend/**/*",
+      "package.json"
+    ],
+    "asarUnpack": [
+      "backend/**/*"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "artifactName": "TeachBack-Setup-${version}.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "TeachBack"
+    }
+  }
+}

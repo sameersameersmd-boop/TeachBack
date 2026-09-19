@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Frontend build
+frontend/dist/
+
+# Electron builds
+release/
+
+# TeachBack runtime data
+backend/uploads/
+backend/generated/
+backend/temp/
+
+# Logs
+*.log
+
+# Environment/secrets
+.env
+.env.*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+# Local backups
+backend_backup/
+frontend_backup/
+package.backup.json
+# Backup files
+**/*backup*
+**/*-backup*
+**/*_backup*
+
+# Stored uploaded document text
+backend/stored_text/
