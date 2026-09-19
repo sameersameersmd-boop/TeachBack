@@ -1,0 +1,31 @@
+🧠 About TeachBack:---
+
+TeachBack is a local AI-powered study assistant designed to help students learn, understand, and explain concepts in their own words.
+
+Instead of simply providing answers, TeachBack follows a learning cycle:
+
+Upload → Learn → Watch → Explain → Evaluate → Improve
+
+Students can upload PDFs or lecture notes, choose a topic, and receive a simple, easy-to-understand explanation with practical examples. TeachBack can also generate a short educational video with topic-specific visuals and natural Indian English narration to make difficult concepts easier to understand.
+
+After learning the topic, students can use the TeachBack feature to explain the concept in their own words. The AI then evaluates their response based on conceptual understanding, identifies what they understood, points out missing or partially understood concepts, and provides guidance for improvement.
+
+TeachBack is built around local AI using Ollama, reducing the need for external AI API keys and allowing the core AI processing to run locally.
+
+✨ Key Features:
+📄 PDF and lecture-note learning
+🤖 Local AI-powered explanations
+🧠 Simple explanations with examples
+🎬 AI-generated educational videos
+🎨 Topic-specific video visuals
+🗣️ Natural Indian English narration
+💬 TeachBack — explain concepts in your own words
+🔍 AI evaluation of conceptual understanding
+📌 Identification of concepts that need improvement
+🖥️ Windows desktop application
+🔐 Local AI architecture using Ollama
+🎯 Core Idea
+
+TeachBack doesn't just ask, "Did you read it?" — it asks, "Can you explain it?"
+
+Learn it. Explain it. Master it.
